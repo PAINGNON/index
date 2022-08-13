@@ -26,55 +26,35 @@
 	
 </head>
 <body onload="" class="" onscroll="" style="">
-	 <!-- สร้างเมนู -->
-	 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-		<div class="container">
-				<a href="index.html" class="navbar-brand">exchange money myanmar</a>
-				<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
-						<span class="navbar-toggler-icon"></span>
-				</button>
-				<div id="navbar1" class="collapse navbar-collapse">
-						<ul class="navbar-nav ms-auto">
-								<li class="nav-item">
-										<a href="index.html" class="nav-link">Home</a>
-								</li>
-								<li class="nav-item">
-										<a href="#service" class="nav-link">บริการ</a>
-								</li>
-								<li class="nav-item">
-										<a href="#about" class="nav-link">เกี่ยวกับเรา</a>
-								</li>
-								<li class="nav-item">
-										<a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">Form</a>
-								</li>
-						</ul>
-				</div>
-		</div>
+ <!-- สร้างเมนู -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+   <div class="container">
+     <a href="index.html" class="navbar-brand">exchange money myanmar</a>
+   <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <div id="navbar1" class="collapse navbar-collapse">
+     <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+	<a href="index.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="#service" class="nav-link">บริการ</a>
+      </li>
+      <li class="nav-item">
+        <a href="#about" class="nav-link">เกี่ยวกับเรา</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">Form</a>
+      </li>
+    </ul>
+  </div>
+  </div>
 </nav>
-	<iframe style="width:100%; height:100vh;" scrolling="yes" src="
-		https://script.google.com/macros/s/AKfycbxdxvpeQ6avPuyZ43U1AwrYJmTvZpEGmsGrvmC6h7lJn-PubpS0SU5rOEmhHMz7fKSW6w/exec
-	" frameborder="0"></iframe>
+<!-- แสดงฟอร์ม -->
+<iframe style="width:100%; height:130vh;" scrolling="yes" src="https://script.google.com/macros/s/AKfycbxdxvpeQ6avPuyZ43U1AwrYJmTvZpEGmsGrvmC6h7lJn-PubpS0SU5rOEmhHMz7fKSW6w/exec" frameborder="0"></iframe>
 
-			<div id="para0">
-        	<button type="button" class="btn btn-primary mt-4" id="btn">switch currency</button>
-            <div class="rate" id="rate">อัตราการแลกเปลี่ยน</div>
-			   
-        <div class="justify-content-center input-group mb-3 mt-3">
-  				<select class="input-group-text" id="currency-one">
-  					<option value="THB">THB</option>
-					<option value="MMK"selected>MMK</option>       
-  				</select>
-  				<input type="number" class="input-group-text" id="amount-one" value="100000">
-			  </div>
-            
-        <div class="justify-content-center input-group mb-3 mt-3">
-  				<select class="input-group-text" id="currency-two">
-  					<option value="THB"selected>THB</option>
-                <option value="MMK">MMK</option>      
-  				</select>
-  				<input type="number" class="input-group-text" id="amount-two" value="1">
-			  </div>
-			</div>
+
 
 			<section id="about" class="p-5">
         <div class="dark-overlay">
@@ -98,9 +78,25 @@
 									<button class="btn-close" data-bs-dismiss="modal"></button>
 							</div>
 							<div class="modal-body">
-								<iframe style="width: 100%; height: 100vh;" scrolling="yes" src="
-								https://script.google.com/macros/s/AKfycbyLWAv-1hDlIluyXLa1jsWNFABTpoyMCk2mufINgROEiI_dXQg7DlGh5cNyoI5dfBdM/exec
-									" frameborder="0"></iframe>
+								<div id="para0">
+  									<button type="button" class="btn btn-primary mt-4" id="btn">switch currency</button>
+ 									<div class="rate" id="rate">อัตราการแลกเปลี่ยน</div>		   
+  									<div class="justify-content-center input-group mb-3 mt-3">
+  										<select class="input-group-text" id="currency-one">
+    											<option value="THB">THB</option>
+    											<option value="MMK"selected>MMK</option>       
+  										</select>
+  										<input type="number" class="input-group-text" id="amount-one" value="100000">
+ 									</div>    
+									<div class="justify-content-center input-group mb-3 mt-3">
+  										<select class="input-group-text" id="currency-two">
+    											<option value="THB"selected>THB</option>
+    											<option value="MMK">MMK</option>      
+  										</select>
+  										<input type="number" class="input-group-text" id="amount-two" value="1">
+ 									</div>
+								</div>
+								
 							</div>
 							
 					</div>
