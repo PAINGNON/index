@@ -3,12 +3,12 @@
     "short_name": "Send Money Thailand Myanma",
     "icons": [
       {
-        "src": "icon.png",
+        "src": "iconnon.png",
         "sizes": "256x256",
         "type": "image/png"
       },
       {
-        "src": "icon.png",
+        "src": "iconnon.png",
         "sizes": "512x512",
         "type": "image/png"
       }
@@ -17,7 +17,7 @@
     "categories": ["utilites", "productivity", "calculator"],
     "screenshots" : [
         {
-            "src": "icon.png",
+            "src": "iconnon.png",
             "sizes": "1280x889",
             "type": "image/jpeg",
             "platform": "wide",
