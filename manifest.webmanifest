@@ -1,6 +1,7 @@
 {
     "name": "Send Money Thailand Myanma",
     "short_name": "Send Money Thailand Myanma",
+    "orientation": "portrait-primary",
     "icons": [
       {
         "src": "iconnon.png",
@@ -26,4 +27,3 @@
     ],
     "display": "standalone",
     "start_url": "/index/"
-}
