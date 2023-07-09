@@ -1,29 +1,29 @@
 {
-    "name": "Send Money Thailand Myanma",
-    "short_name": "Send Money Thailand Myanma",
-    "orientation": "portrait-primary",
+    "name": "iPad Calculator",
+    "short_name": "Calculator",
     "icons": [
       {
-        "src": "iconnon.png",
+        "src": "icon.png",
         "sizes": "256x256",
-        "type": "png"
+        "type": "image/png"
       },
       {
-        "src": "iconnon.png",
+        "src": "icon.png",
         "sizes": "512x512",
-        "type": "png"
+        "type": "image/png"
       }
     ],
     "background_color": "black",
     "categories": ["utilites", "productivity", "calculator"],
     "screenshots" : [
         {
-            "src": "iconnon.png",
+            "src": "/iPad-Calculator/images/calculator-image.jpeg",
             "sizes": "1280x889",
-            "type": "image/png",
+            "type": "image/jpeg",
             "platform": "wide",
             "label": "Calculator for iPad (using Stage Manager mode)"
         }
     ],
     "display": "standalone",
-    "start_url": "index"
+    "start_url": "/iPad-Calculator/"
+}
