@@ -1,6 +1,6 @@
 {
     "name": "PAING NON",
-    "short_name": "Calculator",
+    "short_name": "NON",
     "icons": [
       {
         "src": "icon.png",
@@ -25,5 +25,5 @@
         }
     ],
     "display": "standalone",
-    "start_url": "/iPad-Calculator/"
+    "start_url": "/index/"
 }
