@@ -20,7 +20,7 @@
         {
             "src": "iconnon.png",
             "sizes": "1280x889",
-            "type": "image/jpeg",
+            "type": "image/png",
             "platform": "wide",
             "label": "Calculator for iPad (using Stage Manager mode)"
         }
