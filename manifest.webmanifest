@@ -3,12 +3,12 @@
     "short_name": "PAING NON",
     "icons": [
       {
-        "src": "Logo 1.0",
+        "src": "Logo 1.0.png",
         "sizes": "256x256",
         "type": "image/png"
       },
       {
-        "src": "Logo 1.0",
+        "src": "Logo 1.0.png",
         "sizes": "512x512",
         "type": "image/png"
       }
@@ -17,7 +17,7 @@
     "categories": ["utilites", "productivity", "calculator"],
     "screenshots" : [
         {
-            "src": "Logo 1.0",
+            "src": "Logo 1.0.png",
             "sizes": "1280x889",
             "type": "image/jpeg",
             "platform": "wide",
